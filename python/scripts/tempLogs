@@ -1,0 +1,164 @@
+2020-07-17 10:20:06,859 [INFO ] [TafBootstrap] Initializing TAF plugins
+2020-07-17 10:20:06,863 [INFO ] [TafBootstrap] Initializing TAF plugin : AllureTafPlugin
+2020-07-17 10:20:06,982 [INFO ] [AllureTafPlugin] Searching for AspectJ Weaver javaagent...
+2020-07-17 10:20:07,980 [INFO ] [AllureTafPlugin] AspectJ Weaver javaagent jar file found
+2020-07-17 10:20:08,249 [INFO ] [AllureTafPlugin] Loading AspectJ Weaver javaagent for Allure advanced features...
+2020-07-17 10:20:08,278 [INFO ] [AllureTafPlugin] AspectJ Weaver javaagent for Allure successfully loaded
+2020-07-17 10:20:08,671 [INFO ] [TafBootstrap] TAF plugin AllureTafPlugin initialized
+2020-07-17 10:20:08,677 [INFO ] [TafBootstrap] Initializing TAF plugin : TestNgPlugin
+2020-07-17 10:20:08,884 [INFO ] [TafBootstrap] TAF plugin TestNgPlugin initialized
+2020-07-17 10:20:08,888 [INFO ] [TafBootstrap] Initializing TAF plugin : NetSimTafPlugin
+2020-07-17 10:20:08,903 [INFO ] [TafBootstrap] TAF plugin NetSimTafPlugin initialized
+2020-07-17 10:20:08,924 [INFO ] [TafBootstrap] Initializing TAF plugin : PerformancePlugin
+2020-07-17 10:20:09,023 [WARN ] [TafUserHomeConfiguration] Can't load UserHome configuration because it does not exist /home/ezlaweo/taf_properties
+2020-07-17 10:20:09,272 [WARN ] [PerformancePluginServices] No writers are enabled for metrics
+2020-07-17 10:20:09,292 [INFO ] [TafBootstrap] TAF plugin PerformancePlugin initialized
+2020-07-17 10:20:09,297 [INFO ] [TafBootstrap] Initializing TAF plugin : UiTafPlugin
+2020-07-17 10:20:09,368 [INFO ] [TafBootstrap] TAF plugin UiTafPlugin initialized
+2020-07-17 10:20:09,388 [INFO ] [TafBootstrap] Initializing TAF plugin : DataSourceTafPlugin
+2020-07-17 10:20:09,533 [INFO ] [TafBootstrap] TAF plugin DataSourceTafPlugin initialized
+2020-07-17 10:20:09,556 [INFO ] [TafBootstrap] Initializing TAF plugin : JSchTafPlugin
+2020-07-17 10:20:09,584 [INFO ] [TafBootstrap] TAF plugin JSchTafPlugin initialized
+2020-07-17 10:20:09,605 [INFO ] [TafBootstrap] Loaded 7 TAF plugins in 2745 milliseconds
+2020-07-17 10:20:09,711 [INFO ] [Taf] Looking for suite.xml in directory : /home/ezlaweo/dev/ericsson/tracefiledecodercli-testware/test-pom-tracefiledecodercli/target/taf/suites
+2020-07-17 10:20:13,463 [WARN ] [AllureFacade] TMS Client has already been set
+2020-07-17 10:20:13,607 [INFO ] [ParserTest] Deleting Users & Roles
+2020-07-17 10:20:13,731 [INFO ] [TafContext] Setting context by thread: 18
+2020-07-17 10:20:14,283 [INFO ] [LoggingScenarioListener] VUser: 1 Starting scenario : Delete Roles and Users
+2020-07-17 10:20:14,341 [INFO ] [LoggingScenarioListener] VUser: 1 Starting flow : Delete User
+2020-07-17 10:20:14,357 [INFO ] [LoggingScenarioListener] VUser: 1 Starting flow : Login Default User
+2020-07-17 10:20:14,417 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:17,292 [WARN ] [TafUserHomeConfiguration] Can't load UserHome configuration because it does not exist /home/ezlaweo/taf_properties
+2020-07-17 10:20:19,731 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:19,734 [INFO ] [LoggingScenarioListener] VUser: 1 Finishing flow : Login Default User
+2020-07-17 10:20:32,218 [INFO ] [TafDataSourceDefinition] Providing Data Source `usersToDelete` shared=true
+2020-07-17 10:20:32,222 [INFO ] [LoggingScenarioListener] VUser: 1 Starting flow : Delete User
+2020-07-17 10:20:32,229 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:33,332 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:33,346 [ERROR] [ScenarioExceptionHandler] Exception caught during scenario execution
+2020-07-17 10:20:33,354 [INFO ] [LoggingScenarioListener] VUser: 1 Finishing flow : Delete User
+2020-07-17 10:20:33,355 [INFO ] [LoggingScenarioListener] VUser: 1 Starting flow : Delete User
+2020-07-17 10:20:33,356 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:33,490 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:33,499 [ERROR] [ScenarioExceptionHandler] Exception caught during scenario execution
+2020-07-17 10:20:33,513 [INFO ] [LoggingScenarioListener] VUser: 1 Finishing flow : Delete User
+2020-07-17 10:20:33,514 [INFO ] [LoggingScenarioListener] VUser: 1 Starting flow : Delete User
+2020-07-17 10:20:33,518 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:33,647 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:33,654 [ERROR] [ScenarioExceptionHandler] Exception caught during scenario execution
+2020-07-17 10:20:33,660 [INFO ] [LoggingScenarioListener] VUser: 1 Finishing flow : Delete User
+2020-07-17 10:20:33,666 [INFO ] [LoggingScenarioListener] VUser: 1 Starting flow : Logout
+2020-07-17 10:20:33,666 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:34,102 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:34,102 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:34,104 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:34,105 [INFO ] [LoggingScenarioListener] VUser: 1 Finishing flow : Logout
+2020-07-17 10:20:34,107 [INFO ] [LoggingScenarioListener] VUser: 1 Finishing flow : Delete User
+2020-07-17 10:20:38,824 [INFO ] [TafDataSourceDefinition] Providing Data Source `roleToDelete` shared=true
+2020-07-17 10:20:38,826 [INFO ] [LoggingScenarioListener] VUser: 1 Starting flow : Delete Role
+2020-07-17 10:20:38,835 [INFO ] [LoggingScenarioListener] VUser: 1 Starting flow : Login Default User
+2020-07-17 10:20:38,836 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:39,407 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:39,408 [INFO ] [LoggingScenarioListener] VUser: 1 Finishing flow : Login Default User
+2020-07-17 10:20:39,412 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:39,831 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:39,837 [ERROR] [ScenarioExceptionHandler] Exception caught during scenario execution
+2020-07-17 10:20:39,844 [INFO ] [LoggingScenarioListener] VUser: 1 Starting flow : Logout
+2020-07-17 10:20:39,845 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:40,423 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:40,426 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:40,429 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:40,430 [INFO ] [LoggingScenarioListener] VUser: 1 Finishing flow : Logout
+2020-07-17 10:20:40,434 [INFO ] [LoggingScenarioListener] VUser: 1 Starting flow : Close Tool
+2020-07-17 10:20:40,434 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:40,435 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:40,436 [INFO ] [LoggingScenarioListener] VUser: 1 Finishing flow : Close Tool
+2020-07-17 10:20:40,441 [INFO ] [LoggingScenarioListener] VUser: 1 Finishing flow : Delete Role
+2020-07-17 10:20:40,442 [INFO ] [LoggingScenarioListener] VUser: 1 Starting flow : Delete Role
+2020-07-17 10:20:40,452 [INFO ] [LoggingScenarioListener] VUser: 1 Starting flow : Login Default User
+2020-07-17 10:20:40,453 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:40,970 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:40,971 [INFO ] [LoggingScenarioListener] VUser: 1 Finishing flow : Login Default User
+2020-07-17 10:20:40,974 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:41,117 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:41,123 [ERROR] [ScenarioExceptionHandler] Exception caught during scenario execution
+2020-07-17 10:20:41,129 [INFO ] [LoggingScenarioListener] VUser: 1 Starting flow : Logout
+2020-07-17 10:20:41,130 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:41,644 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:41,644 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:41,646 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:41,646 [INFO ] [LoggingScenarioListener] VUser: 1 Finishing flow : Logout
+2020-07-17 10:20:41,650 [INFO ] [LoggingScenarioListener] VUser: 1 Starting flow : Close Tool
+2020-07-17 10:20:41,650 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:41,651 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:41,652 [INFO ] [LoggingScenarioListener] VUser: 1 Finishing flow : Close Tool
+2020-07-17 10:20:41,654 [INFO ] [LoggingScenarioListener] VUser: 1 Finishing flow : Delete Role
+2020-07-17 10:20:41,669 [INFO ] [LoggingScenarioListener] VUser: 1 Finishing scenario : Delete Roles and Users
+2020-07-17 10:20:41,669 [INFO ] [ParserTest] Creating Users from data source: testUsers & Roles from data source: testRoles
+2020-07-17 10:20:41,713 [INFO ] [LoggingScenarioListener] VUser: 1 Starting scenario : Create Roles and Users
+2020-07-17 10:20:41,734 [INFO ] [TafDataSourceDefinition] Providing Data Source `roleToCreate` shared=true
+2020-07-17 10:20:41,735 [INFO ] [LoggingScenarioListener] VUser: 1 Starting flow : Create Role
+2020-07-17 10:20:41,751 [INFO ] [LoggingScenarioListener] VUser: 1 Starting flow : Login Default User
+2020-07-17 10:20:41,751 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:42,176 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:42,176 [INFO ] [LoggingScenarioListener] VUser: 1 Finishing flow : Login Default User
+2020-07-17 10:20:42,180 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:42,508 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:42,513 [INFO ] [LoggingScenarioListener] VUser: 1 Starting flow : Logout
+2020-07-17 10:20:42,513 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:43,329 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:43,329 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:43,331 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:43,332 [INFO ] [LoggingScenarioListener] VUser: 1 Finishing flow : Logout
+2020-07-17 10:20:43,336 [INFO ] [LoggingScenarioListener] VUser: 1 Starting flow : Close Tool
+2020-07-17 10:20:43,337 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:43,338 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:43,339 [INFO ] [LoggingScenarioListener] VUser: 1 Finishing flow : Close Tool
+2020-07-17 10:20:43,358 [INFO ] [LoggingScenarioListener] VUser: 1 Finishing flow : Create Role
+2020-07-17 10:20:43,425 [INFO ] [LoggingScenarioListener] VUser: 1 Starting flow : Create Role
+2020-07-17 10:20:43,428 [INFO ] [LoggingScenarioListener] VUser: 1 Starting flow : Login Default User
+2020-07-17 10:20:43,430 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:44,183 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:44,184 [INFO ] [LoggingScenarioListener] VUser: 1 Finishing flow : Login Default User
+2020-07-17 10:20:44,187 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:44,349 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:44,354 [INFO ] [LoggingScenarioListener] VUser: 1 Starting flow : Logout
+2020-07-17 10:20:44,354 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:44,939 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:44,939 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:44,941 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:44,941 [INFO ] [LoggingScenarioListener] VUser: 1 Finishing flow : Logout
+2020-07-17 10:20:44,946 [INFO ] [LoggingScenarioListener] VUser: 1 Starting flow : Close Tool
+2020-07-17 10:20:44,947 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:44,950 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:44,953 [INFO ] [LoggingScenarioListener] VUser: 1 Finishing flow : Close Tool
+2020-07-17 10:20:44,955 [INFO ] [LoggingScenarioListener] VUser: 1 Finishing flow : Create Role
+2020-07-17 10:20:44,959 [INFO ] [LoggingScenarioListener] VUser: 1 Starting flow : Create User
+2020-07-17 10:20:44,966 [INFO ] [LoggingScenarioListener] VUser: 1 Starting flow : Login Default User
+2020-07-17 10:20:44,966 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:45,390 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:45,391 [INFO ] [LoggingScenarioListener] VUser: 1 Finishing flow : Login Default User
+2020-07-17 10:20:45,395 [INFO ] [TafDataSourceDefinition] Providing Data Source `usersToCreate` shared=true
+2020-07-17 10:20:45,395 [INFO ] [LoggingScenarioListener] VUser: 1 Starting flow : Create User
+2020-07-17 10:20:45,397 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:45,399 [WARN ] [ParameterTransformer] Error converting value from CSV. Value has been taken as NULL
+2020-07-17 10:20:45,593 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:45,593 [INFO ] [LoggingScenarioListener] VUser: 1 Finishing flow : Create User
+2020-07-17 10:20:45,594 [INFO ] [LoggingScenarioListener] VUser: 1 Starting flow : Create User
+2020-07-17 10:20:45,595 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:45,596 [WARN ] [ParameterTransformer] Error converting value from CSV. Value has been taken as NULL
+2020-07-17 10:20:45,756 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:45,757 [INFO ] [LoggingScenarioListener] VUser: 1 Finishing flow : Create User
+2020-07-17 10:20:45,757 [INFO ] [LoggingScenarioListener] VUser: 1 Starting flow : Create User
+2020-07-17 10:20:45,758 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:45,760 [WARN ] [ParameterTransformer] Error converting value from CSV. Value has been taken as NULL
+2020-07-17 10:20:46,026 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:46,027 [INFO ] [LoggingScenarioListener] VUser: 1 Finishing flow : Create User
+2020-07-17 10:20:46,031 [INFO ] [LoggingScenarioListener] VUser: 1 Starting flow : Logout
+2020-07-17 10:20:46,032 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:46,540 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:46,541 [INFO ] [LoggingScenarioListener] Starting test step 
+2020-07-17 10:20:46,542 [INFO ] [LoggingScenarioListener] Finished test step 
+2020-07-17 10:20:46,542 [INFO ] [LoggingScenarioListener] VUser: 1 Finishing flow : Logout
+2020-07-17 10:20:46,546 [INFO ] [TafDataSourceDefinition] Providing Data Source `usersToVerify` shared=true
+2020-07-17 10:20:46,546 [INFO ] [LoggingScenarioListener] VUser: 1 Starting flow : Verify user can login

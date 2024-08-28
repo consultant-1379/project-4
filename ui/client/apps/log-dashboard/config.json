@@ -1,0 +1,21 @@
+{
+  "script":"log-dashboard/LogDashboard",
+  "title":"LOG_DASHBOARD",
+  "route":"log-dashboard",
+  "localePath": "locale/",
+  "menu": {
+    "id": "LOG_DASHBOARD",
+    "data": {
+      "path": "log-dashboard"
+    }
+  },
+  "dependencies": {
+    "@eui/component":"0.9.x",
+    "@eui/lit-component":"0.9.x",
+    "@eui/app":"0.9.x",
+    "@eui/table": "0.7.x",
+    "@eui/layout": "0.7.x"
+  },
+  "components": {}
+
+}

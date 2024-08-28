@@ -1,0 +1,51 @@
+# Use root/example as user/password credentials
+version: '3.1'
+
+services:
+
+  logCapture:
+    networks:
+        test:
+    image: logcapture
+    build:
+      context: ./python
+      dockerfile: Dockerfile.logreader
+    ports:
+      - 8000:8000
+    stdin_open: true
+
+  logApi:
+    networks:
+      test:
+    image: logapi
+    build: ./java
+    ports:
+      - 9000:8080
+    links:
+      - mongo
+
+  mongo:
+    networks:
+      test:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+    ports:
+      - 9091:9091
+
+  ui:
+    networks: 
+      test:
+    image: eui
+    build:
+      context: ./ui
+      dockerfile: Dockerfile
+    restart: always
+    ports: 
+      - 8080:80
+
+networks:
+  test:
+    driver: bridge

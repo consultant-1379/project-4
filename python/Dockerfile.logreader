@@ -1,0 +1,7 @@
+from python:3.8-slim
+
+run pip3 install pymongo
+copy /scripts /home
+
+cmd sh /home/kick.sh
+

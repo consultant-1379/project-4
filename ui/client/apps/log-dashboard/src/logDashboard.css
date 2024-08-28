@@ -1,0 +1,49 @@
+:host{
+  display: block;
+  overflow: scroll;
+
+} 
+
+.main-container {
+  width: 100%;
+  height: 100%;
+}
+/* sample style */
+h1 {
+  padding: 1em;
+}
+
+.layout__dashboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* three column layout*/
+  row-gap: var(--space-small);
+  column-gap: var(--space-small);
+  background-color: var(--layer1);
+  padding-bottom: var(--space-small);
+}
+
+/* CSS changes required for line chart*/
+.line-chart .line {
+  fill: none;
+  stroke: var(--text);
+  stroke-width: 2;
+}
+.line-chart .linear-gradient stop[stop-color="green"] {
+  stop-color: var(--green);
+}
+.line-chart .linear-gradient stop[stop-color="yellow"] {
+  stop-color: var(--yellow);
+}
+.line-chart .linear-gradient stop[stop-color="orange"] {
+  stop-color: var(--orange) ;
+}
+.line-chart .linear-gradient stop[stop-color="red"] {
+  stop-color: var(--red);
+}
+.line-chart .linear-gradient stop[stop-color="line"] {
+  stop-color: var(--text);
+}
+.line-chart .axis.y.zero .tick line {
+  stroke: var(--text);
+  stroke-width: 1;
+}
